@@ -1,151 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="20954" start="node4" hassounds="0" appversion="7.1.5">
-  <panorama id="node4">
-    <input width="5472" flat="1" levelingroll="0" levelingpitch="0" cylinder="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" height="3648" overlap="1">
-      <level width="5472" height="3648" preload="0" predecode="0"/>
-      <level width="2736" height="1824" preload="0" predecode="0"/>
-      <level width="1368" height="912" preload="0" predecode="0"/>
-      <level width="684" height="456" preload="0" predecode="0"/>
-      <level width="342" height="228" preload="1" predecode="1"/>
+<tour start="node4" appversion="7.1.5" hassounds="0" apprev="20954">
+  <panorama hideabout="1" id="node4">
+    <input cylinder="1" leveltilesize="510" width="5472" flat="1" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="3648" levelbias="0.400" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="3648" predecode="0" width="5472"/>
+      <level preload="0" height="1824" predecode="0" width="2736"/>
+      <level preload="0" height="912" predecode="0" width="1368"/>
+      <level preload="0" height="456" predecode="0" width="684"/>
+      <level preload="1" height="228" predecode="1" width="342"/>
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="500" tilt="0" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="0" fov="140" tilt="90" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" pan="360" fov="140" scaletofit="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata title="- Calay - 線-" info="" copyright="jp-image.space" tags="" customnodeid="" nodeid="node4" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" datetime="2024/11/3 13:34" author="James Lee" source="" latitude="" longitude="" comment="" heading="0"/>
-    <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
-      <label width="180" bordercolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" border="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+    <userdata comment="" author="James Lee" datetime="2024/11/3 13:34" info="" title="- Calay - 線-" customnodeid="" latitude="" heading="0" tags="" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" copyright="jp-image.space" longitude="" nodeid="node4" source=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label borderalpha="1" borderradius="1" width="180" textalpha="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
     </hotspots>
     <media/>
-    <transition delay="none" zoomoutpause="1" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40" zoomfov="40" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" zoomcentercursor="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" dblclickfullscreen="0" invertwheel="0" hideabout="0"/>
+    <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node5">
-    <input width="5472" flat="1" levelingroll="0" levelingpitch="0" cylinder="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" height="3648" overlap="1">
-      <level width="5472" height="3648" preload="0" predecode="0"/>
-      <level width="2736" height="1824" preload="0" predecode="0"/>
-      <level width="1368" height="912" preload="0" predecode="0"/>
-      <level width="684" height="456" preload="0" predecode="0"/>
-      <level width="342" height="228" preload="1" predecode="1"/>
+  <panorama hideabout="1" id="node5">
+    <input cylinder="1" leveltilesize="510" width="5472" flat="1" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="3648" levelbias="0.400" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="3648" predecode="0" width="5472"/>
+      <level preload="0" height="1824" predecode="0" width="2736"/>
+      <level preload="0" height="912" predecode="0" width="1368"/>
+      <level preload="0" height="456" predecode="0" width="684"/>
+      <level preload="1" height="228" predecode="1" width="342"/>
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="500" tilt="0" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="0" fov="140" tilt="90" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" pan="360" fov="140" scaletofit="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata title="- Calay - 線-" info="" copyright="jp-image.space" tags="" customnodeid="" nodeid="node5" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" datetime="2024/11/3 13:37" author="James Lee" source="" latitude="" longitude="" comment="" heading="0"/>
-    <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
-      <label width="180" bordercolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" border="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+    <userdata comment="" author="James Lee" datetime="2024/11/3 13:37" info="" title="- Calay - 線-" customnodeid="" latitude="" heading="0" tags="" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" copyright="jp-image.space" longitude="" nodeid="node5" source=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label borderalpha="1" borderradius="1" width="180" textalpha="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
     </hotspots>
     <media/>
-    <transition delay="none" zoomoutpause="1" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40" zoomfov="40" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" zoomcentercursor="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" dblclickfullscreen="0" invertwheel="0" hideabout="0"/>
+    <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node6">
-    <input width="5472" flat="1" levelingroll="0" levelingpitch="0" cylinder="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" height="3648" overlap="1">
-      <level width="5472" height="3648" preload="0" predecode="0"/>
-      <level width="2736" height="1824" preload="0" predecode="0"/>
-      <level width="1368" height="912" preload="0" predecode="0"/>
-      <level width="684" height="456" preload="0" predecode="0"/>
-      <level width="342" height="228" preload="1" predecode="1"/>
+  <panorama hideabout="1" id="node6">
+    <input cylinder="1" leveltilesize="510" width="5472" flat="1" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="3648" levelbias="0.400" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="3648" predecode="0" width="5472"/>
+      <level preload="0" height="1824" predecode="0" width="2736"/>
+      <level preload="0" height="912" predecode="0" width="1368"/>
+      <level preload="0" height="456" predecode="0" width="684"/>
+      <level preload="1" height="228" predecode="1" width="342"/>
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="500" tilt="0" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="0" fov="140" tilt="90" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" pan="360" fov="140" scaletofit="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata title="- Calay - 線-" info="" copyright="jp-image.space" tags="" customnodeid="" nodeid="node6" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" datetime="2024/11/3 14:54" author="James Lee" source="" latitude="" longitude="" comment="" heading="0"/>
-    <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
-      <label width="180" bordercolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" border="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+    <userdata comment="" author="James Lee" datetime="2024/11/3 14:54" info="" title="- Calay - 線-" customnodeid="" latitude="" heading="0" tags="" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" copyright="jp-image.space" longitude="" nodeid="node6" source=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label borderalpha="1" borderradius="1" width="180" textalpha="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
     </hotspots>
     <media/>
-    <transition delay="none" zoomoutpause="1" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40" zoomfov="40" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" zoomcentercursor="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" dblclickfullscreen="0" invertwheel="0" hideabout="0"/>
+    <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node1">
-    <input width="3648" flat="1" levelingroll="0" levelingpitch="0" cylinder="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" height="5472" overlap="1">
-      <level width="3648" height="5472" preload="0" predecode="0"/>
-      <level width="1824" height="2736" preload="0" predecode="0"/>
-      <level width="912" height="1368" preload="0" predecode="0"/>
-      <level width="456" height="684" preload="0" predecode="0"/>
-      <level width="228" height="342" preload="1" predecode="1"/>
+  <panorama hideabout="1" id="node1">
+    <input cylinder="1" leveltilesize="510" width="3648" flat="1" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="5472" levelbias="0.400" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="5472" predecode="0" width="3648"/>
+      <level preload="0" height="2736" predecode="0" width="1824"/>
+      <level preload="0" height="1368" predecode="0" width="912"/>
+      <level preload="0" height="684" predecode="0" width="456"/>
+      <level preload="1" height="342" predecode="1" width="228"/>
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="500" tilt="0" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="0" fov="140" tilt="90" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" pan="360" fov="140" scaletofit="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata title="- Calay - 線-" info="" copyright="jp-image.space" tags="G7Calay-" customnodeid="" nodeid="node1" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" datetime="2024/11/3 12:58" author="James Lee" source="" latitude="" longitude="" comment="" heading="0"/>
-    <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
-      <label width="180" bordercolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" border="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+    <userdata comment="" author="James Lee" datetime="2024/11/3 12:58" info="" title="- Calay - 線-" customnodeid="" latitude="" heading="0" tags="G7Calay-" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" copyright="jp-image.space" longitude="" nodeid="node1" source=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label borderalpha="1" borderradius="1" width="180" textalpha="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
     </hotspots>
     <media/>
-    <transition delay="none" zoomoutpause="1" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40" zoomfov="40" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" zoomcentercursor="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" dblclickfullscreen="0" invertwheel="0" hideabout="0"/>
+    <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node2">
-    <input width="3648" flat="1" levelingroll="0" levelingpitch="0" cylinder="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" height="5472" overlap="1">
-      <level width="3648" height="5472" preload="0" predecode="0"/>
-      <level width="1824" height="2736" preload="0" predecode="0"/>
-      <level width="912" height="1368" preload="0" predecode="0"/>
-      <level width="456" height="684" preload="0" predecode="0"/>
-      <level width="228" height="342" preload="1" predecode="1"/>
+  <panorama hideabout="1" id="node2">
+    <input cylinder="1" leveltilesize="510" width="3648" flat="1" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="5472" levelbias="0.400" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="5472" predecode="0" width="3648"/>
+      <level preload="0" height="2736" predecode="0" width="1824"/>
+      <level preload="0" height="1368" predecode="0" width="912"/>
+      <level preload="0" height="684" predecode="0" width="456"/>
+      <level preload="1" height="342" predecode="1" width="228"/>
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="500" tilt="0" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="0" fov="140" tilt="90" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" pan="360" fov="140" scaletofit="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata title="- Calay - 線-" info="" copyright="jp-image.space" tags="G7Calay-" customnodeid="" nodeid="node2" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" datetime="2024/11/3 13:00" author="James Lee" source="" latitude="" longitude="" comment="" heading="0"/>
-    <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
-      <label width="180" bordercolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" border="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+    <userdata comment="" author="James Lee" datetime="2024/11/3 13:00" info="" title="- Calay - 線-" customnodeid="" latitude="" heading="0" tags="G7Calay-" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" copyright="jp-image.space" longitude="" nodeid="node2" source=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label borderalpha="1" borderradius="1" width="180" textalpha="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
     </hotspots>
     <media/>
-    <transition delay="none" zoomoutpause="1" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40" zoomfov="40" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" zoomcentercursor="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" dblclickfullscreen="0" invertwheel="0" hideabout="0"/>
+    <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
   </panorama>
-  <panorama id="node3">
-    <input width="3648" flat="1" levelingroll="0" levelingpitch="0" cylinder="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" height="5472" overlap="1">
-      <level width="3648" height="5472" preload="0" predecode="0"/>
-      <level width="1824" height="2736" preload="0" predecode="0"/>
-      <level width="912" height="1368" preload="0" predecode="0"/>
-      <level width="456" height="684" preload="0" predecode="0"/>
-      <level width="228" height="342" preload="1" predecode="1"/>
+  <panorama hideabout="1" id="node3">
+    <input cylinder="1" leveltilesize="510" width="3648" flat="1" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="5472" levelbias="0.400" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="5472" predecode="0" width="3648"/>
+      <level preload="0" height="2736" predecode="0" width="1824"/>
+      <level preload="0" height="1368" predecode="0" width="912"/>
+      <level preload="0" height="684" predecode="0" width="456"/>
+      <level preload="1" height="342" predecode="1" width="228"/>
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="500" tilt="0" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="0" fov="140" tilt="90" fovstereographic="330" pan="360"/>
+      <start pan="0" fov="500" tilt="0"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovstereographic="330" pan="360" fov="140" scaletofit="0" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata title="- Calay - 線-" info="" copyright="jp-image.space" tags="G7Calay-" customnodeid="" nodeid="node3" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" datetime="2024/11/3 13:02" author="James Lee" source="" latitude="" longitude="" comment="" heading="0"/>
-    <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
-      <label width="180" bordercolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" border="1" borderradius="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+    <userdata comment="" author="James Lee" datetime="2024/11/3 13:02" info="" title="- Calay - 線-" customnodeid="" latitude="" heading="0" tags="G7Calay-" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。&#xa;" copyright="jp-image.space" longitude="" nodeid="node3" source=""/>
+    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
+      <label borderalpha="1" borderradius="1" width="180" textalpha="1" bordercolor="0x000000" wordwrap="1" backgroundalpha="1" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff" textcolor="0x000000"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
     </hotspots>
     <media/>
-    <transition delay="none" zoomoutpause="1" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40" zoomfov="40" zoomin="0" softedge="0" type="crossdissolve"/>
-    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control rubberband="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" zoomcentercursor="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" dblclickfullscreen="0" invertwheel="0" hideabout="0"/>
+    <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata title="Calay - 線" copyright="" tags="" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。" comment="" author=""/>
+    <userdata tags="" description="calay是與祖靈牽引連結的絲線。&#xa;&#xa;祭儀中，祭師會用手指拉住這條無形的線，以尋找祖靈的存在，進行跨越時空的連結與對話，是 lidaw 部落的祭師在進行祭儀及與祖靈聯結的方式；而我將之視為外婆與我的連繫。" comment="" author="" copyright="" title="Calay - 線"/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>

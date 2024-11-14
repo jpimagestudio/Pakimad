@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node1" appversion="7.1.5" hassounds="0" apprev="20954">
-  <panorama id="node1">
+  <panorama hideabout="1" id="node1">
     <input leveltilesize="510" width="3662" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="3662" levelbias="0.400" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
       <level preload="0" height="3662" predecode="0" width="3662"/>
       <level preload="0" height="1831" predecode="0" width="1831"/>
@@ -29,9 +29,11 @@
     </media>
     <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="1" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="0">
+      <menulink text="關於爵攝數位影像工作室" url="https://oring-brother.com"/>
+    </control>
   </panorama>
-  <panorama id="node2">
+  <panorama hideabout="1" id="node2">
     <input leveltilesize="510" width="3664" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="3664" levelbias="0.400" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
       <level preload="0" height="3664" predecode="0" width="3664"/>
       <level preload="0" height="1832" predecode="0" width="1832"/>
@@ -56,18 +58,20 @@
       <hotspot target="_blank" description="G4 年祭_output" pan="-355.8" skinid="ht_gallery" tilt="-15.71" title="年祭" url="" id="Point05"/>
       <hotspot target="_blank" description="G3 藍色_output" pan="-31.71" skinid="ht_url" tilt="-13.76" title="藍色" url="" id="Point06"/>
       <hotspot target="_blank" description="G2 捕魚output" pan="-54.62" skinid="ht_gallery" tilt="-10.48" title="捕魚" url="" id="Point07"/>
-      <hotspot target="_blank" description="G7 Calay-線" pan="-222.81" skinid="ht_gallery" tilt="-10.35" title="Calay - 線" url="" id="Point08"/>
+      <hotspot target="_blank" description="G7 Calay-線output" pan="-222.81" skinid="ht_gallery" tilt="-10.35" title="Calay - 線" url="" id="Point08"/>
     </hotspots>
     <media>
-      <image fov="30.000" roty="0.000" width="480" popbackmode="0" stretch="1.000" rotz="0.000" pan="-266.210" height="640" handcursor="1" rotx="0.000" tilt="-0.620" popoutscaling="100" hidepinned="0" id="Element01" clickmode="4">
+      <image fov="30.000" roty="0.000" width="1440" popbackmode="0" stretch="1.000" rotz="0.000" pan="-266.210" height="1920" handcursor="1" rotx="0.000" tilt="-0.620" popoutscaling="100" hidepinned="0" id="Element01" clickmode="1">
         <source url="media/-JMS_2149.jpg"/>
       </image>
     </media>
     <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="1" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="0">
+      <menulink text="關於爵攝數位影像工作室" url="https://oring-brother.com"/>
+    </control>
   </panorama>
-  <panorama id="node3">
+  <panorama hideabout="1" id="node3">
     <input leveltilesize="510" width="3659" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="3659" levelbias="0.400" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
       <level preload="0" height="3659" predecode="0" width="3659"/>
       <level preload="0" height="1829" predecode="0" width="1829"/>
@@ -101,7 +105,9 @@
     </media>
     <transition zoomfov="40" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomafteroutfov="40" zoomoutpause="1" blendtime="1" enabled="1" blendcolor="0x000000" zoomin="0" zoomspeed="2" zoomafterinfov="140"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="1" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="1"/>
+    <control lockedkeyboardzoom="0" invertcontrol="1" hideabout="1" contextprojections="0" zoomcentercursor="1" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" rubberband="0" contextvr="0" sensitivity="8" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="0">
+      <menulink text="關於爵攝數位影像工作室" url="https://oring-brother.com"/>
+    </control>
   </panorama>
   <masternode>
     <userdata tags="" description="" comment="" author="" copyright="" title=""/>

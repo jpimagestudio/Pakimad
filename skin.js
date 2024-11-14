@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.5/20954
 // Filename: skin_with_FloorPlan_and_Logo_finsih_phonescreen.ggsk
-// Generated 2024-11-14T18:30:21
+// Generated 2024-11-14T18:55:09
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_thumbnail_menu', 2, false, { ignoreInState: 1  });
