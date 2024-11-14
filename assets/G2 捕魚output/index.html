@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title>Mitavukud - &#25429;&#39770;</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta property="og:title" content="Mitavukud - &#25429;&#39770;">
+		<meta property="og:description" content="&#33256;&#36817;&#33457;&#34030;&#28330;&#30340;&#20986;&#28023;&#21475;&#65292;&#24179;&#26178;&#28858;lidaw&#37324;&#28431;&#37096;&#33853;&#30007;&#23376;&#20497;&#25746;&#32178;&#25429;&#39770;&#21450;&#21106;&#25505;&#26519;&#25237;&#33865;&#30340;&#22320;&#26041;&#65292;&#24190;&#20046;&#23478;&#23478;&#25142;&#25142;&#30340;&#30007;&#23376;&#37117;&#26371;&#25429;&#39770;&#65292;&#20294;&#20006;&#19981;&#26159;&#20197;&#27492;&#28858;&#29983;&#65292;&#32780;&#26159;&#28858;&#28023;&#31085;&#12289;&#25429;&#39770;&#31085;&#25152;&#36914;&#34892;&#30340;&#35347;&#32244;&#65292;&#20063;&#26159;&#24037;&#20316;&#38290;&#26247;&#20043;&#39192;&#30340;&#31934;&#31070;&#23492;&#35351;&#33287;&#20241;&#38290;&#23067;&#27138;&#12290;">
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta property="og:image" content="preview.jpg">
+		<style type="text/css" title="Default">
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				background: black;
+				color: white;
+				overflow:hidden; /* disable scrollbars */
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
+			}
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+				height: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+				background-color:  rgba(255,255,255,0.5);
+			}
+		</style>
+	</head>
+	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js?ts=68613893">
+		</script>
+		<script type="text/javascript" src="skin.js?ts=68613893">
+		</script>
+		<div id="container" style="width:100%;height:100%;overflow:hidden;">
+		<br>Loading...<br><br>
+		</div>
+		<script type="text/javascript">
+		function parseParams(paramsString, params) {
+			paramsString = paramsString.substring(1);
+			var firstSeparatorPos = paramsString.indexOf(",");
+			if (firstSeparatorPos != -1) {
+				params.startNode = paramsString.slice(0, firstSeparatorPos);
+				var viewingParamsString = paramsString.slice(firstSeparatorPos + 1);
+				var viewingParams = viewingParamsString.split(",");
+				if (viewingParams.length >= 3) {
+					var startView = {};
+					startView["pan"] = viewingParams[0];
+					startView["tilt"] = viewingParams[1];
+					startView["fov"] = viewingParams[2];
+					if (viewingParams.length >= 4) {
+						startView["projection"] = viewingParams[3];
+					}
+					params.startView = startView;
+				}
+			} else {
+				params.startNode = paramsString;
+				params.startView = "";
+			}
+		}
+		var params = {};
+		parseParams(document.location.hash, params);
+		var startNode = params.startNode;
+		var startView = params.startView;
+		if (("onhashchange" in window) && (!(/MSIE (\d+\.\d+);/.test(navigator.userAgent)))) {
+			window.onhashchange = function () {
+				parseParams(window.location.hash, params);
+				pano.openNext('{' + params.startNode + '}', params.startView);
+			}
+		} else {
+			var lastHash = window.location.hash;
+			window.setInterval(function () {
+				if (window.location.hash != lastHash) {
+					lastHash = window.location.hash;
+					parseParams(window.location.hash, params);
+					pano.openNext('{' + params.startNode + '}', params.startView);
+				}
+			}, 100);
+		}
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			pano.startNode = startNode;
+			pano.startView = startView;
+			pano.setQueryParameter("ts=68613893")
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			window.addEventListener("load", function() {
+				pano.readConfigUrlAsync("pano.xml?ts=68613893");
+			});
+			if (window.navigator.userAgent.match(/Safari/i)) {
+				// fix for white borders, rotation on iPhone
+				function iosHfix(e) {
+					window.scrollTo(0, 1);
+					var container=document.getElementById("container");
+					var oh=container.offsetHeight;
+					document.documentElement.style.setProperty('height', '100vh');
+					if (oh!=container.offsetHeight) {
+						container.style.setProperty('height',"100%");
+					} else {
+						container.style.setProperty('height',window.innerHeight+"px");
+					}
+					window.scrollTo(0, 0);
+					pano.setViewerSize(container.offsetWidth, container.offsetHeight);
+				};
+				setTimeout(iosHfix,0);
+				setTimeout(iosHfix,100);
+				window.addEventListener("resize", function() {
+					setTimeout(iosHfix,0);
+					// hide toolbar on iPad happens with a delay
+					setTimeout(iosHfix,500);
+					setTimeout(iosHfix,1000);
+					setTimeout(iosHfix,2000);
+				});
+			}
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+	</body>
+</html>

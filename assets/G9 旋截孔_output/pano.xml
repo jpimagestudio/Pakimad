@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="20954" start="node1" hassounds="0" appversion="7.1.5">
+  <panorama id="node1">
+    <input width="5472" flat="1" levelingroll="0" levelingpitch="0" cylinder="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" height="3648" overlap="1">
+      <level width="5472" height="3648" preload="0" predecode="0"/>
+      <level width="2736" height="1824" preload="0" predecode="0"/>
+      <level width="1368" height="912" preload="0" predecode="0"/>
+      <level width="684" height="456" preload="0" predecode="0"/>
+      <level width="342" height="228" preload="1" predecode="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start fov="500" tilt="0" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovfisheye="360" scaletofit="0" fov="140" tilt="90" fovstereographic="330" pan="360"/>
+    </view>
+    <userdata title="- 旋截孔 -" info="" copyright="jp-image.space" tags="G9" customnodeid="" nodeid="node1" description="花蓮充滿史前玉石工作痕跡，很多的巨石上都有圓形穿孔，史前玉器上也都會發現，鑽孔旋截技術散布在整個東部。&#xa;&#xa;最重要的鑽孔方式有三種：&#xa;1.   實心棒鑽孔 會成啦叭狀上寬下窄。&#xa;2.   空心棒鑽孔 會留下玉核。&#xa;3.   啄孔 用尖銳的玉石在同一個地方敲擊 直到貫穿。貫穿後一片一片串聯組合，小型孔洞設計成配戴飾品，大型孔為建房屋地景藝術使用。" datetime="2024/11/3 13:15" author="James Lee" source="" latitude="" longitude="" comment="" heading="0"/>
+    <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
+      <label width="180" bordercolor="0x000000" backgroundcolor="0xffffff" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" wordwrap="1" height="20" textcolor="0x000000" background="1" border="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+    </hotspots>
+    <media/>
+    <transition delay="none" zoomoutpause="1" zoomout="0" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40" zoomfov="40" zoomin="0" softedge="0" type="crossdissolve"/>
+    <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" simulatemass="1" zoomcentercursor="1" contextvr="1" lockedkeyboard="0" lockedwheel="0" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" speedwheel="1" dblclickfullscreen="0" invertwheel="0" hideabout="0"/>
+  </panorama>
+  <masternode>
+    <userdata title="- 旋截孔 -" copyright="" tags="" description="花蓮充滿史前玉石工作痕跡，很多的巨石上都有圓形穿孔，史前玉器上也都會發現，鑽孔旋截技術散布在整個東部。" comment="" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>

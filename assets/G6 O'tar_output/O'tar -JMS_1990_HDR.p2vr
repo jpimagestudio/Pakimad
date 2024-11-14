@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="20954" version="7.1.5">
+  <tour>
+    <panorama>
+      <projectsettings>
+        <userdata>
+          <customprops/>
+        </userdata>
+        <mapgrid>
+          <anchor/>
+        </mapgrid>
+        <floorplangrid>
+          <anchor/>
+        </floorplangrid>
+      </projectsettings>
+      <input>
+        <patch/>
+        <type>flat</type>
+        <filename>/Users/jameslee/Desktop/待轉pano2vr/故飾/media/平面output/G5 O'tar/O'tar -JMS_1990_HDR.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov>
+          <start>500</start>
+        </fov>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+        <scaletofit>0</scaletofit>
+      </viewingparameter>
+      <userdata>
+        <customprops/>
+        <capturedatetime>2024-11-03T12:57:31+08:00</capturedatetime>
+        <author>James Lee</author>
+        <copyright>jp-image.space</copyright>
+        <datetime>2024/11/3 12:57</datetime>
+        <tags>G5Otar</tags>
+        <description>一種傳統編結，用來固定或做成扣環，在原住民的用語裡沒有「藝術」這個詞，但在日常生活中，總體現出既實用又具美感的物件，從傳統中截取，轉換成另一種媒材及技法，因飾品擁有著佩戴的實用性，這個結法也用我的方式繼續傳承下去。</description>
+        <title>- O' tar -</title>
+      </userdata>
+      <floorplans/>
+      <hotspots/>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <ggloudproject/>
+      <sounds/>
+      <id>node2</id>
+    </panorama>
+    <start>node2</start>
+  </tour>
+  <panorama>
+    <id>master</id>
+    <input>
+      <patch/>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+    </viewingparameter>
+    <userdata>
+      <customprops/>
+    </userdata>
+    <projectsettings>
+      <userdata>
+        <customprops/>
+      </userdata>
+      <mapgrid>
+        <anchor/>
+      </mapgrid>
+      <floorplangrid>
+        <anchor/>
+      </floorplangrid>
+      <usenodealtitude>0</usenodealtitude>
+      <language>zh-TW</language>
+      <translatehotspotmedia>1</translatehotspotmedia>
+      <translatepinnedmedia>1</translatepinnedmedia>
+      <translationspath>translations</translationspath>
+      <fovmode>diagonal</fovmode>
+      <translationsavailable>
+        <value id="Project">zh-TW</value>
+      </translationsavailable>
+      <translationsnames>
+        <value id="Project">繁體中文</value>
+      </translationsnames>
+      <translationsenabled>
+        <value id="Project">true</value>
+      </translationsenabled>
+    </projectsettings>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <placeidcache>{"entries":[]}</placeidcache>
+      <htmlcss>
+        <html>
+          <values/>
+          <enabled>1</enabled>
+          <filename>../G6 O'tar/G6-O'tar output/index.html</filename>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomfov>40</zoomfov>
+          <zoomafterinfov>140</zoomafterinfov>
+          <zoomafteroutfov>40</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>3648</tilesize>
+        <filename>../G6 O'tar/G6-O'tar output/pano.xml</filename>
+        <skinfile>Skin_for_Gallery.ggsk</skinfile>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <ggloudproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+      <sequence/>
+    </animation>
+  </panorama>
+</pano2vrconfig>
