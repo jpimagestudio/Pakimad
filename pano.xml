@@ -59,7 +59,7 @@
       <hotspot target="_blank" description="G7 Calay-線" pan="-222.81" skinid="ht_gallery" tilt="-10.35" title="Calay - 線" url="" id="Point08"/>
     </hotspots>
     <media>
-      <image fov="30.000" roty="0.000" width="480" popbackmode="0" stretch="1.000" rotz="0.000" pan="-266.210" height="640" handcursor="1" rotx="0.000" tilt="-0.620" popoutscaling="100" hidepinned="0" id="Element01" clickmode="1">
+      <image fov="30.000" roty="0.000" width="480" popbackmode="0" stretch="1.000" rotz="0.000" pan="-266.210" height="640" handcursor="1" rotx="0.000" tilt="-0.620" popoutscaling="100" hidepinned="0" id="Element01" clickmode="4">
         <source url="media/-JMS_2149.jpg"/>
       </image>
     </media>

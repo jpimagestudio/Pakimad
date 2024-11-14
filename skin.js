@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.5/20954
 // Filename: skin_with_FloorPlan_and_Logo_finsih_phonescreen.ggsk
-// Generated 2024-11-14T18:23:55
+// Generated 2024-11-14T18:28:10
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_thumbnail_menu', 2, false, { ignoreInState: 1  });
@@ -4201,7 +4201,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="gallery";
 		el.ggDx=0;
 		el.ggDy=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:0.8,sy:0.8,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:0.9,sy:0.9,def:'' };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
@@ -4261,14 +4261,14 @@ function pano2vrSkin(player,base) {
 				me._gallery.ggCurrentLogicStateScaling = newLogicStateScaling;
 				me._gallery.style.transition='transform 0s';
 				if (me._gallery.ggCurrentLogicStateScaling == 0) {
-					me._gallery.ggParameter.sx = 0.7;
-					me._gallery.ggParameter.sy = 0.7;
+					me._gallery.ggParameter.sx = 0.8;
+					me._gallery.ggParameter.sy = 0.8;
 					me._gallery.style.transform=parameterToTransform(me._gallery.ggParameter);
 					skin.updateSize(me._gallery);
 				}
 				else {
-					me._gallery.ggParameter.sx = 0.8;
-					me._gallery.ggParameter.sy = 0.8;
+					me._gallery.ggParameter.sx = 0.9;
+					me._gallery.ggParameter.sy = 0.9;
 					me._gallery.style.transform=parameterToTransform(me._gallery.ggParameter);
 					skin.updateSize(me._gallery);
 				}
