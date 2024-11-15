@@ -31,6 +31,7 @@
       </sound>
     </media>
     <transition zoomafteroutfov="40" enabled="1" type="crossdissolve" delay="none" zoomafterinfov="140" zoomoutpause="1" softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2"/>
+    <autorotate enabled="1" speed="0.100" delay="5.00" horizonfromdefview="0" startloaded="0" useanimation="0" nodedelay="30.00" nodefilter="" noderandom="0" returntohorizon="0.000"/>
     <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
     <control sensitivity="8" simulatemass="1" invertcontrol="1" rubberband="0" lockedkeyboard="0" contextvr="0" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" invertwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" dblclickfullscreen="0" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="關於爵攝數位影像工作室"/>
@@ -72,6 +73,7 @@
       </sound>
     </media>
     <transition zoomafteroutfov="40" enabled="1" type="crossdissolve" delay="none" zoomafterinfov="140" zoomoutpause="1" softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2"/>
+    <autorotate enabled="1" speed="0.100" delay="5.00" horizonfromdefview="0" startloaded="0" useanimation="0" nodedelay="30.00" nodefilter="" noderandom="0" returntohorizon="0.000"/>
     <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
     <control sensitivity="8" simulatemass="1" invertcontrol="1" rubberband="0" lockedkeyboard="0" contextvr="0" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" invertwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" dblclickfullscreen="0" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="關於爵攝數位影像工作室"/>
@@ -113,6 +115,7 @@
       </sound>
     </media>
     <transition zoomafteroutfov="40" enabled="1" type="crossdissolve" delay="none" zoomafterinfov="140" zoomoutpause="1" softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2"/>
+    <autorotate enabled="1" speed="0.100" delay="5.00" horizonfromdefview="0" startloaded="0" useanimation="0" nodedelay="30.00" nodefilter="" noderandom="0" returntohorizon="0.000"/>
     <animation clipsrandom="0" useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
     <control sensitivity="8" simulatemass="1" invertcontrol="1" rubberband="0" lockedkeyboard="0" contextvr="0" zoomcentercursor="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" invertwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" dblclickfullscreen="0" lockedwheel="0">
       <menulink url="https://oring-brother.com" text="關於爵攝數位影像工作室"/>
