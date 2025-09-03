@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    html, body { height: 100%; margin: 0; background: transparent; }
+    model-viewer { width: 100%; height: 100%; background-color: transparent; }
+    .ui {
+      position: fixed; right: 16px; bottom: 16px;
+      display: flex; gap: 8px; flex-wrap: wrap;
+    }
+    .ui button {
+      padding: 8px 12px; border: 1px solid #ddd; background: #fff; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer id="mv"
+    src="./Rock.glb"
+    alt="Rock 3D Model"
+    camera-controls
+    auto-rotate
+    interaction-prompt="none"
+    environment-image="neutral"
+    style="background-color: transparent;">
+  </model-viewer>
+
+  <div class="ui">
+    <button onclick="zoom(1.2)">放大</button>
+    <button onclick="zoom(0.83)">縮小</button>
+    <button onclick="reset()">重置視角</button>
+    <button onclick="toggleAuto()">切換自動旋轉</button>
+  </div>
+
+  <script>
+    const mv = document.getElementById('mv');
+
+    function zoom(factor) {
+      const orbit = mv.getCameraOrbit();
+      const newRadius = orbit.radius * (1/factor);
+      mv.cameraOrbit = `${orbit.theta}rad ${orbit.phi}rad ${newRadius}m`;
+    }
+
+    function reset() {
+      mv.cameraOrbit = '0deg 75deg auto';
+      mv.fieldOfView = 'auto';
+    }
+
+    function toggleAuto() {
+      if (mv.hasAttribute('auto-rotate')) mv.removeAttribute('auto-rotate');
+      else mv.setAttribute('auto-rotate', '');
+    }
+  </script>
+</body>
+</html>

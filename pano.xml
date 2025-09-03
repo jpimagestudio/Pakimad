@@ -1,134 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="20966" hassounds="1" start="node1" appversion="7.1.6">
-  <panorama id="node1" hideabout="1">
-    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" width="3662" height="3662" overlap="1" levelingroll="0">
-      <level predecode="0" width="3662" height="3662" preload="0"/>
-      <level predecode="0" width="1831" height="1831" preload="0"/>
-      <level predecode="0" width="915" height="915" preload="0"/>
-      <level predecode="1" width="457" height="457" preload="1"/>
+<tour appversion="7.1.11" start="node1" apprev="21010" hassounds="1">
+  <panorama hideabout="1" id="node1">
+    <input levelingpitch="0" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" width="3662" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="3662">
+      <level width="3662" predecode="0" preload="0" height="3662"/>
+      <level width="1831" predecode="0" preload="0" height="1831"/>
+      <level width="915" predecode="0" preload="0" height="915"/>
+      <level width="457" predecode="1" preload="1" height="457"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start pan="1.33" fov="120" tilt="-7.04" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" fovstereographic="330" scaletofit="1" pan="360" fov="140" tilt="90"/>
+      <start tilt="-7.04" pan="1.33" fov="120" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1"/>
     </view>
-    <userdata info="" description="" author="James Lee" tags="pano|output" source="" comment="" datetime="2024/11/3 12:18" customnodeid="" longitude="" heading="0" copyright="jp-image.space" title="" latitude="" nodeid="node1"/>
-    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
-      <label background="1" borderradius="1" textalpha="1" enabled="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" width="180" bordercolor="0x000000" height="20"/>
-      <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot skinid="ht_node" id="Point01" description="" url="{node2}" target="" pan="-89.34" title="" tilt="0.549999"/>
-      <hotspot skinid="ht_node" id="Point02" description="" url="{node3}" target="" pan="-269.3" title="" tilt="-0.34"/>
-      <hotspot skinid="ht_gallery" id="Point03" description="G7 Calay-線output" url="" target="_blank" pan="-358.56" title="Calay-線" tilt="-7.21"/>
+    <userdata longitude="" customnodeid="" title="" datetime="2024/11/3 12:18" copyright="jp-image.space" heading="0" author="James Lee" source="" tags="pano|output" latitude="" nodeid="node1" description="" info="" comment=""/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label wordwrap="1" bordercolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" enabled="1" height="20"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="0.549999" target="" pan="-89.34" skinid="ht_node" url="{node2}" description="" title="" id="Point01"/>
+      <hotspot tilt="-0.34" target="" pan="-269.3" skinid="ht_node" url="{node3}" description="" title="" id="Point02"/>
+      <hotspot tilt="-7.21" target="_blank" pan="-358.56" skinid="ht_gallery" url="" description="G7 Calay-線output" title="Calay-線" id="Point03"/>
     </hotspots>
     <media>
-      <image hidepinned="0" popoutscaling="100" roty="-2.000" rotz="0.000" popbackmode="0" fov="30.000" tilt="-0.100" handcursor="1" rotx="0.000" id="Element01" width="480" height="640" clickmode="1" pan="-181.400" stretch="1.000">
+      <image rotz="0.000" popbackmode="0" hidepinned="0" rotx="0.000" fov="30.000" roty="-2.000" id="Element01" tilt="-0.100" width="480" pan="-181.400" clickmode="1" stretch="1.000" popoutscaling="100" handcursor="1" height="640">
         <source url="media/-JMS_2151.jpg"/>
       </image>
-      <sound field="90.000" tiltsize="10.000" tilt="-1.000" level="1.000" startmutedmobile="0" id="_background" nodechangekeep="1" mode="0" ambientlevel="0.000" pansize="10.000" pan="-1.000" loop="0">
-        <source url="media/sound.ac3" mono="0"/>
+      <sound tiltsize="10.000" ambientlevel="0.000" id="_background" tilt="-1.000" mode="0" pansize="10.000" pan="-1.000" loop="0" field="90.000" startmutedmobile="0" nodechangekeep="1" level="1.000">
+        <source mono="0" url="media/sound.ac3"/>
       </sound>
     </media>
-    <transition delay="none" zoomafteroutfov="40" zoomfov="40" softedge="0" zoomspeed="2" enabled="1" zoomout="0" blendcolor="0x000000" type="crossdissolve" zoomin="0" blendtime="1" zoomafterinfov="140" zoomoutpause="1"/>
-    <autorotate delay="8.00" useanimation="0" enabled="1" speed="-0.100" nodefilter="" startloaded="0" horizonfromdefview="0" noderandom="0" nodedelay="30.00" returntohorizon="0.000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
-    <control lockedkeyboardzoom="0" simulatemass="1" zoomcentercursor="1" contextvr="0" lockedmouse="0" contextprojections="0" lockedwheel="0" invertcontrol="1" lockedkeyboard="0" invertwheel="0" rubberband="0" sensitivity="8" dblclickfullscreen="0" hideabout="1" contextfullscreen="0" speedwheel="1">
+    <transition zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomafterinfov="140" delay="none" zoomout="0" zoomin="0" softedge="0" zoomfov="40" zoomoutpause="1" type="crossdissolve" zoomspeed="2" enabled="1"/>
+    <autorotate noderandom="0" horizonfromdefview="0" returntohorizon="0.000" delay="8.00" nodedelay="30.00" speed="-0.100" nodefilter="" startloaded="0" enabled="1" useanimation="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboard="0" contextprojections="0" speedwheel="1" lockedwheel="0" contextvr="0" lockedmouse="0" invertcontrol="1" simulatemass="1" dblclickfullscreen="0" hideabout="1" rubberband="0" sensitivity="8" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" zoomcentercursor="1">
       <menulink url="https://oring-brother.com" text="關於爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama id="node2" hideabout="1">
-    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" width="3664" height="3664" overlap="1" levelingroll="0">
-      <level predecode="0" width="3664" height="3664" preload="0"/>
-      <level predecode="0" width="1832" height="1832" preload="0"/>
-      <level predecode="0" width="916" height="916" preload="0"/>
-      <level predecode="1" width="458" height="458" preload="1"/>
+  <panorama hideabout="1" id="node2">
+    <input levelingpitch="0" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" width="3664" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="3664">
+      <level width="3664" predecode="0" preload="0" height="3664"/>
+      <level width="1832" predecode="0" preload="0" height="1832"/>
+      <level width="916" predecode="0" preload="0" height="916"/>
+      <level width="458" predecode="1" preload="1" height="458"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start pan="0" fov="100" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" fovstereographic="330" scaletofit="1" pan="360" fov="140" tilt="90"/>
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1"/>
     </view>
-    <userdata info="" description="" author="James Lee" tags="pano|output" source="" comment="" datetime="2024/11/3 12:14" customnodeid="" longitude="" heading="0" copyright="jp-image.space" title="" latitude="" nodeid="node2"/>
-    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
-      <label background="1" borderradius="1" textalpha="1" enabled="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" width="180" bordercolor="0x000000" height="20"/>
-      <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot skinid="ht_node" id="Point01" description="" url="{node1}" target="" pan="-174.11" title="" tilt="0.25"/>
-      <hotspot skinid="ht_gallery" id="Point02" description="G1 歌唱output" url="" target="_blank" pan="-88.07" title="歌唱" tilt="-11.56"/>
-      <hotspot skinid="ht_gallery" id="Point03" description="G6 O'tar_output" url="" target="_blank" pan="-297.04" title="O' tar" tilt="-11.71"/>
-      <hotspot skinid="ht_gallery" id="Point04" description="G5 星星_output" url="" target="_blank" pan="-314.91" title="星星" tilt="-12.12"/>
-      <hotspot skinid="ht_gallery" id="Point05" description="G4 年祭_output" url="" target="_blank" pan="-355.8" title="年祭" tilt="-15.71"/>
-      <hotspot skinid="ht_gallery" id="Point06" description="G3 藍色_output" url="" target="_blank" pan="-31.71" title="藍色" tilt="-13.76"/>
-      <hotspot skinid="ht_gallery" id="Point07" description="G2 捕魚output" url="" target="_blank" pan="-54.62" title="捕魚" tilt="-10.48"/>
-      <hotspot skinid="ht_gallery" id="Point08" description="G7 Calay-線output" url="" target="_blank" pan="-222.81" title="Calay - 線" tilt="-10.35"/>
-      <polyhotspot description="" id="Poly01" url="" target="_blank" title="">
+    <userdata longitude="" customnodeid="" title="" datetime="2024/11/3 12:14" copyright="jp-image.space" heading="0" author="James Lee" source="" tags="pano|output" latitude="" nodeid="node2" description="" info="" comment=""/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label wordwrap="1" bordercolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" enabled="1" height="20"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="0.25" target="" pan="-174.11" skinid="ht_node" url="{node1}" description="" title="" id="Point01"/>
+      <hotspot tilt="-11.56" target="_blank" pan="-88.07" skinid="ht_gallery" url="" description="G1 歌唱output" title="歌唱" id="Point02"/>
+      <hotspot tilt="-11.71" target="_blank" pan="-297.04" skinid="ht_gallery" url="" description="G6 O'tar_output" title="O' tar" id="Point03"/>
+      <hotspot tilt="-12.12" target="_blank" pan="-314.91" skinid="ht_gallery" url="" description="G5 星星_output" title="星星" id="Point04"/>
+      <hotspot tilt="-15.71" target="_blank" pan="-355.8" skinid="ht_gallery" url="" description="G4 年祭_output" title="年祭" id="Point05"/>
+      <hotspot tilt="-13.76" target="_blank" pan="-31.71" skinid="ht_gallery" url="" description="G3 藍色_output" title="藍色" id="Point06"/>
+      <hotspot tilt="-10.48" target="_blank" pan="-54.62" skinid="ht_gallery" url="" description="G2 捕魚output" title="捕魚" id="Point07"/>
+      <hotspot tilt="-10.35" target="_blank" pan="-222.81" skinid="ht_gallery" url="" description="G7 Calay-線output" title="Calay - 線" id="Point08"/>
+      <polyhotspot target="_blank" url="" description="" title="" id="Poly01">
         <polystring>-79.62/15.8|-93.47/15.72|-92.89/2.72|-79.87/2.64</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image hidepinned="0" popoutscaling="100" roty="0.000" rotz="0.000" popbackmode="0" fov="30.000" tilt="-0.620" handcursor="1" rotx="0.000" id="Element01" width="1440" height="1920" clickmode="1" pan="-266.210" stretch="1.000">
+      <image rotz="0.000" popbackmode="0" hidepinned="0" rotx="0.000" fov="30.000" roty="0.000" id="Element01" tilt="-0.620" width="1440" pan="-266.210" clickmode="1" stretch="1.000" popoutscaling="100" handcursor="1" height="1920">
         <source url="media/-JMS_2149.jpg"/>
       </image>
-      <video hidepinned="0" rotz="0.000" popbackmode="0" fov="30.000" handcursor="0" poster="media/video1_preview.jpg" rotx="0.000" nodechangekeep="0" clickmode="0" pan="-86.310" loop="0" field="90.000" roty="0.000" popoutscaling="100" tiltsize="10.000" tilt="9.110" level="0.000" startmutedmobile="1" id="Element02" mode="3" ambientlevel="0.000" width="1920" pansize="10.000" height="1080" stretch="1.000">
+      <video poster="media/video1_preview.jpg" hidepinned="0" rotx="0.000" roty="0.000" id="Element02" tilt="9.110" mode="3" width="1920" startmutedmobile="1" nodechangekeep="0" height="1080" rotz="0.000" tiltsize="10.000" ambientlevel="0.000" fov="30.000" popbackmode="0" pansize="10.000" field="90.000" pan="-86.310" loop="0" stretch="1.000" clickmode="0" popoutscaling="100" level="0.000" handcursor="0">
         <source url="media/video1.m4v"/>
       </video>
-      <sound field="90.000" tiltsize="10.000" tilt="-1.000" level="1.000" startmutedmobile="0" id="_background" nodechangekeep="1" mode="0" ambientlevel="0.000" pansize="10.000" pan="-1.000" loop="0">
-        <source url="media/sound.ac3" mono="0"/>
+      <sound tiltsize="10.000" ambientlevel="0.000" id="_background" tilt="-1.000" mode="0" pansize="10.000" pan="-1.000" loop="0" field="90.000" startmutedmobile="0" nodechangekeep="1" level="1.000">
+        <source mono="0" url="media/sound.ac3"/>
       </sound>
     </media>
-    <transition delay="none" zoomafteroutfov="40" zoomfov="40" softedge="0" zoomspeed="2" enabled="1" zoomout="0" blendcolor="0x000000" type="crossdissolve" zoomin="0" blendtime="1" zoomafterinfov="140" zoomoutpause="1"/>
-    <autorotate delay="8.00" useanimation="0" enabled="1" speed="-0.100" nodefilter="" startloaded="0" horizonfromdefview="0" noderandom="0" nodedelay="30.00" returntohorizon="0.000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
-    <control lockedkeyboardzoom="0" simulatemass="1" zoomcentercursor="1" contextvr="0" lockedmouse="0" contextprojections="0" lockedwheel="0" invertcontrol="1" lockedkeyboard="0" invertwheel="0" rubberband="0" sensitivity="8" dblclickfullscreen="0" hideabout="1" contextfullscreen="0" speedwheel="1">
+    <transition zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomafterinfov="140" delay="none" zoomout="0" zoomin="0" softedge="0" zoomfov="40" zoomoutpause="1" type="crossdissolve" zoomspeed="2" enabled="1"/>
+    <autorotate noderandom="0" horizonfromdefview="0" returntohorizon="0.000" delay="8.00" nodedelay="30.00" speed="-0.100" nodefilter="" startloaded="0" enabled="1" useanimation="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboard="0" contextprojections="0" speedwheel="1" lockedwheel="0" contextvr="0" lockedmouse="0" invertcontrol="1" simulatemass="1" dblclickfullscreen="0" hideabout="1" rubberband="0" sensitivity="8" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" zoomcentercursor="1">
       <menulink url="https://oring-brother.com" text="關於爵攝數位影像工作室"/>
     </control>
   </panorama>
-  <panorama id="node3" hideabout="1">
-    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" width="3659" height="3659" overlap="1" levelingroll="0">
-      <level predecode="0" width="3659" height="3659" preload="0"/>
-      <level predecode="0" width="1829" height="1829" preload="0"/>
-      <level predecode="0" width="914" height="914" preload="0"/>
-      <level predecode="1" width="457" height="457" preload="1"/>
+  <panorama hideabout="1" id="node3">
+    <input levelingpitch="0" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" overlap="1" width="3659" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="3659">
+      <level width="3659" predecode="0" preload="0" height="3659"/>
+      <level width="1829" predecode="0" preload="0" height="1829"/>
+      <level width="914" predecode="0" preload="0" height="914"/>
+      <level width="457" predecode="1" preload="1" height="457"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start pan="0" fov="100" tilt="0" projection="4"/>
-      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovfisheye="360" fovstereographic="330" scaletofit="1" pan="360" fov="140" tilt="90"/>
+      <start tilt="0" pan="0" fov="100" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" fov="140" fovstereographic="330" scaletofit="1"/>
     </view>
-    <userdata info="" description="" author="James Lee" tags="pano|output" source="" comment="" datetime="2024/11/3 12:21" customnodeid="" longitude="" heading="0" copyright="jp-image.space" title="" latitude="" nodeid="node3"/>
-    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
-      <label background="1" borderradius="1" textalpha="1" enabled="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" width="180" bordercolor="0x000000" height="20"/>
-      <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot skinid="ht_node" id="Point01" description="" url="{node1}" target="" pan="-178.51" title="" tilt="-0.0899995"/>
-      <hotspot skinid="ht_gallery" id="Point02" description="G13 東海岸玉石output" url="" target="_blank" pan="-49.29" title="東海岸玉石" tilt="-12.04"/>
-      <hotspot skinid="ht_gallery" id="Point03" description="G12 時間軸 output" url="" target="_blank" pan="-30.39" title="時間軸" tilt="-15.18"/>
-      <hotspot skinid="ht_gallery" id="Point04" description="G11 網墜output" url="" target="_blank" pan="-1.12" title="網墜" tilt="-19.04"/>
-      <hotspot skinid="ht_gallery" id="Point05" description="G10 清玉寶石盒 output" url="" target="_blank" pan="-328.61" title="清玉寶石盒" tilt="-15.32"/>
-      <hotspot skinid="ht_gallery" id="Point06" description="G9 旋截孔_output" url="" target="_blank" pan="-308.32" title="旋截孔" tilt="-11.78"/>
-      <hotspot skinid="ht_gallery" id="Point07" description="G8 官礦_output" url="" target="_blank" pan="-270.38" title="官礦" tilt="-21.68"/>
-      <hotspot skinid="ht_gallery" id="Point08" description="G7 Calay-線output" url="" target="_blank" pan="-144.81" title="Calay-線" tilt="-7.62"/>
+    <userdata longitude="" customnodeid="" title="" datetime="2024/11/3 12:21" copyright="jp-image.space" heading="0" author="James Lee" source="" tags="pano|output" latitude="" nodeid="node3" description="" info="" comment=""/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label wordwrap="1" bordercolor="0x000000" backgroundcolor="0xffffff" background="1" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" enabled="1" height="20"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot tilt="-0.0899995" target="" pan="-178.51" skinid="ht_node" url="{node1}" description="" title="" id="Point01"/>
+      <hotspot tilt="-12.04" target="_blank" pan="-49.29" skinid="ht_gallery" url="" description="G13 東海岸玉石output" title="東海岸玉石" id="Point02"/>
+      <hotspot tilt="-15.18" target="_blank" pan="-30.39" skinid="ht_gallery" url="" description="G12 時間軸 output" title="時間軸" id="Point03"/>
+      <hotspot tilt="-19.04" target="_blank" pan="-1.12" skinid="ht_gallery" url="" description="G11 網墜output" title="網墜" id="Point04"/>
+      <hotspot tilt="-15.32" target="_blank" pan="-328.61" skinid="ht_gallery" url="" description="G10 清玉寶石盒 output" title="清玉寶石盒" id="Point05"/>
+      <hotspot tilt="-11.78" target="_blank" pan="-308.32" skinid="ht_gallery" url="" description="G9 旋截孔_output" title="旋截孔" id="Point06"/>
+      <hotspot tilt="-21.68" target="_blank" pan="-270.38" skinid="ht_gallery" url="" description="G8 官礦_output" title="官礦" id="Point07"/>
+      <hotspot tilt="-7.62" target="_blank" pan="-144.81" skinid="ht_gallery" url="" description="G7 Calay-線output" title="Calay-線" id="Point08"/>
+      <hotspot tilt="-8.3" target="_blank" pan="-270.68" skinid="ht_info_3D" url="Rock" description="打開3D模型展示" title="官礦 3D 模型" id="Point09"/>
     </hotspots>
     <media>
-      <image hidepinned="0" popoutscaling="100" roty="0.000" rotz="0.000" popbackmode="0" fov="30.000" tilt="-1.010" handcursor="1" rotx="0.000" id="Element01" width="480" height="640" clickmode="1" pan="-87.820" stretch="1.000">
+      <image rotz="0.000" popbackmode="0" hidepinned="0" rotx="0.000" fov="30.000" roty="0.000" id="Element01" tilt="-1.010" width="480" pan="-87.820" clickmode="1" stretch="1.000" popoutscaling="100" handcursor="1" height="640">
         <source url="media/-JMS_2150.jpg"/>
       </image>
-      <sound field="90.000" tiltsize="10.000" tilt="-1.000" level="1.000" startmutedmobile="0" id="_background" nodechangekeep="1" mode="0" ambientlevel="0.000" pansize="10.000" pan="-1.000" loop="0">
-        <source url="media/sound.ac3" mono="0"/>
+      <sound tiltsize="10.000" ambientlevel="0.000" id="_background" tilt="-1.000" mode="0" pansize="10.000" pan="-1.000" loop="0" field="90.000" startmutedmobile="0" nodechangekeep="1" level="1.000">
+        <source mono="0" url="media/sound.ac3"/>
       </sound>
     </media>
-    <transition delay="none" zoomafteroutfov="40" zoomfov="40" softedge="0" zoomspeed="2" enabled="1" zoomout="0" blendcolor="0x000000" type="crossdissolve" zoomin="0" blendtime="1" zoomafterinfov="140" zoomoutpause="1"/>
-    <autorotate delay="8.00" useanimation="0" enabled="1" speed="-0.100" nodefilter="" startloaded="0" horizonfromdefview="0" noderandom="0" nodedelay="30.00" returntohorizon="0.000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
-    <control lockedkeyboardzoom="0" simulatemass="1" zoomcentercursor="1" contextvr="0" lockedmouse="0" contextprojections="0" lockedwheel="0" invertcontrol="1" lockedkeyboard="0" invertwheel="0" rubberband="0" sensitivity="8" dblclickfullscreen="0" hideabout="1" contextfullscreen="0" speedwheel="1">
+    <transition zoomafteroutfov="40" blendcolor="0x000000" blendtime="1" zoomafterinfov="140" delay="none" zoomout="0" zoomin="0" softedge="0" zoomfov="40" zoomoutpause="1" type="crossdissolve" zoomspeed="2" enabled="1"/>
+    <autorotate noderandom="0" horizonfromdefview="0" returntohorizon="0.000" delay="8.00" nodedelay="30.00" speed="-0.100" nodefilter="" startloaded="0" enabled="1" useanimation="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control lockedkeyboard="0" contextprojections="0" speedwheel="1" lockedwheel="0" contextvr="0" lockedmouse="0" invertcontrol="1" simulatemass="1" dblclickfullscreen="0" hideabout="1" rubberband="0" sensitivity="8" contextfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" zoomcentercursor="1">
       <menulink url="https://oring-brother.com" text="關於爵攝數位影像工作室"/>
     </control>
   </panorama>
   <masternode>
-    <userdata description="" comment="" author="" tags="" copyright="" title=""/>
+    <userdata copyright="" author="" tags="" description="" title="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
